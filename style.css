@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+header {
+  background-color: red;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  position: sticky;
+}
+#navigate {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.menu {
+  margin: 0;
+  background-color: grey;
+}
+.menu li {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+
+.menu li a {
+  color: white;
+  display: block;
+}
+.dropdown {
+  position: absolute;
+  width: auto;
+  max-width: 150px;
+  display: none;
+  top: 100%;
+  background-color: rgb(232, 232, 232);
+  padding: 0;
+}
+
+.menu li:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.menu li:hover .dropdown {
+    display: block;
+    
+}
